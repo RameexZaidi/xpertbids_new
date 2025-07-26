@@ -134,7 +134,7 @@ const Dashboard = () => {
                 image="./assets/images/dashboard-wallet.svg"
                 score={
                   <>
-                    <i className="fa-solid fa-dollar-sign"></i>
+                    
                     {dashboardData.wallet}
                   </>
                 }
