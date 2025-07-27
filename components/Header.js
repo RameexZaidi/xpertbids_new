@@ -540,8 +540,8 @@ useEffect(() => {
                   <div className="registration-btns-dashboard ms-auto dashboard-menu">
                     {/* User Balance */}
                     <p className="user-amount d-none d-xl-flex">
-                     PKR
-                      <Link className="amount" href={'/wallet'}><span ><WalletBalance/></span></Link>
+                     
+                      <Link className="amount" href={'/wallet'}>PKR<span ><WalletBalance/></span></Link>
                     </p>
                     <p className="sear-icon d-none d-xl-inline">
                       <button
